@@ -1,5 +1,6 @@
 img {
-    max-width:100%;
+    max-width:50%;
+    max-height: 50%;
 }
 
 .container {
@@ -8,5 +9,6 @@ img {
 }
 
 .container img {
-    width:calc(100% / 3);
+    width:calc(50% / 4);
+    height: calc(50% / 4);
 }
