@@ -1,0 +1,3 @@
+<?php
+
+require_once "php/view/section-produits.php";
