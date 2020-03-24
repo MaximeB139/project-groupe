@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -7,14 +7,15 @@
 </head>
 <body>
     <header>
-        <!-- CODE A INCREMENTER PAR BAPTISTE -->
+         CODE A INCREMENTER PAR BAPTISTE
     </header>
-    <main>
-        <section id=produits>
+    <main> -->
+
+        <section id="produits">
             <h1>Nos produits</h1>
                 <p>Du petit déjeuner au goûter, en passant par le dessert, nos produits vous accompagne dans toutes vos envies gourmandes.</p>
-                <img src="assets/img/Biscottes.png" alt="Types de Biscottes">
-                
+                <img class="imagePrincipal" src="assets/img/Biscottes.png" alt="Types de Biscottes">
+                <div class="container">
 <?php
 
 $listeGalerie = glob("assets/img/Biskot*.png");
@@ -29,11 +30,12 @@ CODEHTML;
 }
 
 ?>        
-            
+           </div> 
         </section>
-    </main>
+        
+<!-- </main>
     <footer>
-        <!-- CODE A INCREMENTER PAR MELODIE -->
+         CODE A INCREMENTER PAR MELODIE
     </footer>
 </body>
-</html>
+</html> -->
