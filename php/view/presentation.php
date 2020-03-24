@@ -9,7 +9,7 @@
 <body>
     <header>
     <h1>Biskot entreprise</h1>
-    <img src="assets/img/logoBiskot.png">
+    <img src="assets/img/LogoBiskot.png">
 
     <h2>Presentation de l'entreprise</h2>
 
