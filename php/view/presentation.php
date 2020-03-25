@@ -10,7 +10,8 @@
 <body>
     <header>
     <h1>Biskot entreprise</h1>
-    <img src="assets/img/LogoBiskot.png">
+    <img class="logo" src="assets/img/LogoBiskot.png" alt="logo entreprise">
+
 
     <h2>Presentation de l'entreprise</h2>
 
@@ -35,7 +36,5 @@ Depuis 2015, ce sont les quatre enfants qui en ont repris la direction dans le m
 
 
     </header>
-    <main></main>
-    <footer></footer>
-</body>
-</html>
+    <main>
+
