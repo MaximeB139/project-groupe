@@ -4,13 +4,13 @@ $pdo = new PDO("mysql:host=localhost;dbname=biskot;charset=utf8;", "root", "");
 //$pdoStatement->execute($tabAssoColonneValeur);
 
 
-if( empty($prenom) || empty($nom) );
+if( empty($_POST['prenom']) || empty($_POST['nom']) );
 {
     echo "Veuillez remplir tout les champs du formulaire!";
 } 
 else{
-   echo "Envoyer ! Nous faisons au mieux afin de vous répondre dans les plus brefs délais."; 
-}
+    echo "Merci! Nous faisons au possilbe pour vous répondre dans les plus bref délais.";
+}   
  
 
 
