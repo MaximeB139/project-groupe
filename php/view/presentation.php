@@ -12,6 +12,7 @@
     <h1>Biskot entreprise</h1>
     <img class="logo" src="assets/img/LogoBiskot.png" alt="logo entreprise">
 
+
     <h2>Presentation de l'entreprise</h2>
 
 
