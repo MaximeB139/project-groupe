@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"> CHANGEMENT EFFECTUER CHEZ Baptiste
     <title>Biskot</title>
 </head>
 <body>
@@ -37,5 +38,6 @@ CODEHTML;
     <footer>
          CODE A INCREMENTER PAR MELODIE
     </footer>
+    <script src="assets/js/app.js"></script> A ajouter par Melodie
 </body>
 </html> -->
