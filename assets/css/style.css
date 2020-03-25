@@ -11,3 +11,9 @@ img {
 .container img {
     width:calc(50% / 4);
 }
+
+.logo  {
+    padding-left: 22px;
+    max-width: 75%;
+    padding-top: 5px;
+}
