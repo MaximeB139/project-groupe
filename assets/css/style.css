@@ -11,3 +11,10 @@ img {
 .container img {
     width:calc(50% / 4);
 }
+
+.logo {
+
+    width:100px;
+    height:100px;
+}
+
