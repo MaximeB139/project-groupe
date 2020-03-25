@@ -10,5 +10,4 @@ img {
 
 .container img {
     width:calc(50% / 4);
-    height: calc(50% / 4);
 }
