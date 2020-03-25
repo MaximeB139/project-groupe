@@ -13,10 +13,14 @@
     <main> -->
 
         <section id="produits">
-            <h2>Nos produits</h2>
+            <h2><div id="Nos produits">Nos produits</div></h2>
                 <p>Du petit déjeuner au goûter, en passant par le dessert, nos produits vous accompagne dans toutes vos envies gourmandes.</p>
                 <img class="imagePrincipal" src="assets/img/Biscottes.png" alt="Types de Biscottes">
                 <div class="container">
+         
+
+
+
 <?php
 
 $listeGalerie = glob("assets/img/Biskot*.png");

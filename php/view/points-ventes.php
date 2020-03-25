@@ -1,5 +1,5 @@
 <section>
-        <h2>Nos Points De Ventes</h2>
+        <h2><div id="Nos Points De Ventes"> Points De Ventes</div></h2>
 
         <div style="position:relative; height:400px">
             <div style="position:absolute; z-index:1; height:100%">

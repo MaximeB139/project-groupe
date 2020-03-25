@@ -1,4 +1,4 @@
-<h2>Biskot est là pour répondre à vos questions</h2>
+<h2><div id="contact">Biskot est là pour répondre à vos questions</div></h2>
 <form name="bisckotform" action="traitementcontact.php" method="post">
    <p> Nom :<br/>
 <input type="text" name="nom" value="" placeholder="veuillez entrer votre nom"/>
