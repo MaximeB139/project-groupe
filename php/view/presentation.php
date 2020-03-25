@@ -35,7 +35,5 @@ Depuis 2015, ce sont les quatre enfants qui en ont repris la direction dans le m
 
 
     </header>
-    <main></main>
-    <footer></footer>
-</body>
-</html>
+    <main>
+
