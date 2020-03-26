@@ -1,21 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<h1>Biscottes</h1>
-<body>
-    
-</body>
-</html>
-
-</main>
-
-<h2>Biskot est là pour répondre à vos questions</h2>
-<form name="bisckotform" action="" method="post">
+<h2><div id="contact">Biskot est là pour répondre à vos questions</div></h2>
+<form name="bisckotform" action="traitementcontact.php" method="post">
    <p> Nom :<br/>
 <input type="text" name="nom" value="" placeholder="veuillez entrer votre nom"/>
 <br/> </p>
@@ -46,8 +30,3 @@ Votre message :<br />
 <input type="reset" value="Annuler" /> 
 
 
-<footer>
-Tout droits sont réservés 
-</footer>
-</body>
-</html>
