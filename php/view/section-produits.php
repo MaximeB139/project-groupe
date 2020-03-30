@@ -34,10 +34,10 @@
         foreach ($tableau as $i => $image) {
          
             echo
-                <<<CODEHTML
+<<<CODEHTML
      
 <div>
-<p>$panier[$i]</p>;
+<p>$panier[$i]</p>
 <img src="$image">
 </div>
 CODEHTML;
