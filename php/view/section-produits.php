@@ -21,27 +21,26 @@
 
 
 
-<?php
+                
+    
+    <div class="image">
 
-$listeGalerie = glob("assets/img/Biskot*.png");
-foreach($listeGalerie as $image)
-{
-    echo 
-<<<CODEHTML
 
-    <img src="$image" alt="$image">
+        <?php
 
+        $tableau = glob("assets/img/Biskot*.png");
+        $panier = ["bibi", "koko", "ttt","tt"];
+
+        foreach ($tableau as $i => $image) {
+         
+            echo
+                <<<CODEHTML
+     
+<div>
+<p>$panier[$i]</p>;
+<img src="$image">
+</div>
 CODEHTML;
-}
+        }
 
-?>        
-           </div> 
-        </section>
-        
-<!-- </main>
-    <footer>
-         CODE A INCREMENTER PAR MELODIE
-    </footer>
-    <script src="assets/js/app.js"></script> A ajouter par Melodie
-</body>
-</html> -->
+        ?>
