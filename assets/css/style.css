@@ -4,7 +4,7 @@ img {
 }
 
 .container {
-    display: flex;
+    display: block;
     width:100%;
     
 }
@@ -24,4 +24,7 @@ h1 {
     text-align: left;
     margin-left: 115px;
     margin-top: -55px;
+}
+body {
+    text-align: center;
 }
