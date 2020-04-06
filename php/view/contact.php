@@ -4,11 +4,11 @@
 
 <form name="bisckotform" action="traitementcontact.php" method="post">
    <p> Nom :<br/>
-<input type="text" name="nom" value="" placeholder="veuillez entrer votre nom"/>
+<input type="text"  required="required" name="nom" value="" placeholder="veuillez entrer votre nom"/>
 <br/> </p>
 <p>
     Prénom:<br/>
-<input type="text" name="prenom" value="" placeholder="veuillez entrer votre prénom"/>
+<input type="text"  required="required" name="prenom" value="" placeholder="veuillez entrer votre prénom"/>
 <br/>
 </p>
 <p>
