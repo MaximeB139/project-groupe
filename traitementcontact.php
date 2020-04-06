@@ -12,17 +12,17 @@ if(isset($_POST['envoyer']))
         echo" Veuillez remplir tout les champs du formulaire";
     }
     else{
-$nom= ($_POST['nom']);
-$prenom= ($_POST['prenom']);
-$email= ($_POST['email']);
-$profil= ($_POST['profil']);
-$commentaire= ($_POST['commentaire']);
-echo " nom : ".$nom." prenom : ".$prenom." email : ".$email." profil : ".$profil." commentaire : ".$commentaire." ";
+    $nom= ($_POST['nom']);
+    $prenom= ($_POST['prenom']);
+    $email= ($_POST['email']);
+    $profil= ($_POST['profil']);
+    $commentaire= ($_POST['commentaire']);
+        echo " nom : ".$nom." prenom : ".$prenom." email : ".$email." profil : ".$profil." commentaire : ".$commentaire." ";
+        }
 }
-}
-else{
+    else{
     echo "Vous n'avez pas encore validé le formulaire";
-}
+        }
 
 
 
