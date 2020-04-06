@@ -16,13 +16,15 @@
 <a href="#Nos Points De Ventes">Nos Points De Ventes</a>
 <a href="#contact">contact</a>
 
+    </header>
+
+
 
 
 
 
     <h2>Presentation de l'entreprise</h2>
-
-
+<section class="presentation">
 <p>UN SAVOIR-FAIRE PRÉSERVÉ
     depuis la création de notre  boulangerie familiale jusqu'à ce jour , nous apportons le même soin dans la sélection de nos produits comme dans nos recettes.
 
@@ -66,8 +68,6 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, praesentium
 quasi facere consequatur optio sint, maxime iusto!
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores repudiandae delectus vero modi, quaerat accusantium natus ducimus assumenda dicta, quos deleniti placeat quis soluta quod 
 dolor nostrum dolorum! Soluta, inventore!</p>
-
-
-    </header>
-    <main>
+</section>
+<main>
 
