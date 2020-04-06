@@ -31,5 +31,5 @@ Votre message :<br />
 
 <input type="submit" value="Envoyer" name="envoyer" />
 <input type="reset" value="Annuler" /> 
-
+</form>
 
