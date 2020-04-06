@@ -3,15 +3,21 @@ $pdo = new PDO("mysql:host=localhost;dbname=biskot;charset=utf8;", "root", "");
 //$pdoStatement = $pdo->prepare($requeteSQL);
 //$pdoStatement->execute($tabAssoColonneValeur);
 
+var_dump($_POST);
 
-if( empty($_POST['prenom']) || empty($_POST['nom']) );
+if(isset($_POST['Envoyer']))
 {
-    echo "Veuillez remplir tout les champs du formulaire!";
-} 
+$nom= ($_POST['nom']);
+$prenom= ($_POST['prenom']);
+$email= ($_POST['email']);
+$profil= ($_POST['profil']);
+$commentaire= ($_POST['commentaire']);
+echo " nom : ".$nom." prenom : ".$prenom." email : ".$email." profil : ".$profil." commentaire : ".$commentaire." ";
+}
 else{
-    echo "Merci! Nous faisons au possilbe pour vous répondre dans les plus bref délais.";
-}   
- 
+    echo "Vous n'avez pas encore validé le formulaire";
+}
+
 
 
 ?>
