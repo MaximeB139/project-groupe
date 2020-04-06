@@ -9,7 +9,7 @@ for(var i=0; i < listeImg.length; i++)
     var imageCourante = listeImg[i];
    
     imageCourante.addEventListener("click", function(event){
-        console.log("LE VISITEUR A CLIQUE");
+        //console.log("LE VISITEUR A CLIQUE");
        
         console.log(event.target);
         
