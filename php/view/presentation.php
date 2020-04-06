@@ -11,17 +11,14 @@
     <header>
     <img class="logo" src="assets/img/LogoBiskot.png" alt="logo entreprise">
     <h1>Biskot entreprise</h1>
-
+<section class="ancre">
 <a href="#Nos produits">Nos produits</a>
 <a href="#Nos Points De Ventes">Nos Points De Ventes</a>
 <a href="#contact">contact</a>
-
+</section>
     </header>
 
-
-
-
-
+    <main>
 
     <h2>Presentation de l'entreprise</h2>
 <section class="presentation">
@@ -69,5 +66,4 @@ quasi facere consequatur optio sint, maxime iusto!
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores repudiandae delectus vero modi, quaerat accusantium natus ducimus assumenda dicta, quos deleniti placeat quis soluta quod 
 dolor nostrum dolorum! Soluta, inventore!</p>
 </section>
-<main>
 
