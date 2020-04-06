@@ -5,7 +5,7 @@ $pdo = new PDO("mysql:host=localhost;dbname=biskot;charset=utf8;", "root", "");
 
 var_dump($_POST);
 
-if(isset($_POST['Envoyer']))
+if(isset($_POST['envoyer']))
 {
     if (empty($_POST['nom']) || empty($_POST['prenom']))
     {

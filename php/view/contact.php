@@ -29,7 +29,7 @@ Votre message :<br />
 <textarea name="commentaire" rows="6" cols="40" placeholder="Exprimez vous et donnez nous un maximum de détails"></textarea>
 </p>
 
-<input type="submit" value="Envoyer" />
+<input type="submit" value="Envoyer" name="envoyer" />
 <input type="reset" value="Annuler" /> 
 
 
