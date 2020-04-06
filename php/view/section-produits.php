@@ -29,7 +29,7 @@
         <?php
 
         $tableau = glob("assets/img/Biskot*.png");
-        $panier = ["bibi", "koko", "ttt","tt"];
+        
 
         foreach ($tableau as $i => $image) {
          
@@ -37,10 +37,15 @@
 <<<CODEHTML
      
 <div>
-<p>$panier[$i]</p>
+
 <img src="$image">
 </div>
 CODEHTML;
         }
 
+
         ?>
+        </div> 
+    </div>
+</section>
+<!-- <p>$panier[$i]</p> $panier = ["bibi", "koko", "ttt","tt"];-->
