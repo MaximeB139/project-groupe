@@ -31,4 +31,9 @@ body {
 }
 
 header, main { 
-background-color: white; }
+background-color: white; 
+}
+
+h2 {
+    margin-block-start: 0px;
+}
