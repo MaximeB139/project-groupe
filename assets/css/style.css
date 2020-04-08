@@ -39,3 +39,8 @@ h2 {
     background-color: rgba(149, 157, 158, 0.658);
     
 }
+
+.ancre{
+    position: fixed;
+}
+

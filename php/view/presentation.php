@@ -10,13 +10,14 @@
 </head>
 <body>
     <header>
-    <img class="logo" src="assets/img/LogoBiskot.png" alt="logo entreprise">
-    <h1>Biskot entreprise</h1>
-<section class="ancre">
+    <section class="ancre">
 <a href="#Nos produits">Nos produits</a>
 <a href="#Nos Points De Ventes">Nos Points De Ventes</a>
 <a href="#contact">contact</a>
 </section>
+    <img class="logo" src="assets/img/LogoBiskot.png" alt="logo entreprise">
+    <h1>Biskot entreprise</h1>
+
     </header>
 
     <main>
