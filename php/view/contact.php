@@ -5,7 +5,7 @@
 <form name="bisckotform" action="traitementcontact.php" method="post">
 
 <fieldset>
- <legend> A propos des CSS : </legend>
+ <legend> Vos informations : </legend>
    <p> Nom :
         <br/>
         <input type="text"  required="required" name="nom" value="" placeholder="veuillez entrer votre nom"/>
@@ -43,7 +43,7 @@
    
     </p>
 
-        <input type="submit" value="Envoyer" name="envoyer"/>
-        <input type="reset" value="Annuler"/> 
+       <input type="submit" value="Envoyer" name="envoyer"/>
+    
 </form>
 

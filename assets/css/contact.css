@@ -40,3 +40,13 @@ textarea {
     border:1px solid black;
          } 
    
+input, textarea, select {
+    border:none;
+	padding:6px 0 6px 0;
+	border-radius:2px;
+	box-shadow:3px 3px 12px #999;
+	background:#fff;
+	font:bold 13px Arial;
+	color:#555;
+          }   
+
