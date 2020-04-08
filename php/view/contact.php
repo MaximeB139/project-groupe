@@ -3,6 +3,9 @@
 
 
 <form name="bisckotform" action="traitementcontact.php" method="post">
+
+<fieldset>
+ <legend> A propos des CSS : </legend>
    <p> Nom :
         <br/>
         <input type="text"  required="required" name="nom" value="" placeholder="veuillez entrer votre nom"/>
@@ -29,9 +32,15 @@
        <br/>
     </p>
     <p>
+
+</fieldset>
+<fieldset>
+ <legend>Commentaire :</legend>
         Votre message :
         <br/>
         <textarea name="commentaire" rows="6" cols="40" placeholder="Exprimez vous et donnez nous un maximum de détails"></textarea>
+</fieldset>
+   
     </p>
 
         <input type="submit" value="Envoyer" name="envoyer"/>

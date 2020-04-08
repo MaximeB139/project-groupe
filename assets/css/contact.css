@@ -1,0 +1,42 @@
+ form {
+  /*padding:250px;
+    padding-top: 10px;
+     width:45%;*/
+     
+    width: 100px;
+     } 
+
+     textarea{
+      resize : both;
+      min-width : 100px;
+      min-height : 100px;
+      max-width : 200px;
+      max-height : 200px;
+             }
+
+     
+fieldset {
+    padding:20px;
+    margin-bottom:10px;
+         }
+
+legend {
+    color:#a0522d;
+    font-weight:bold
+       }
+
+
+input {
+    border:1px solid black;
+      }
+      
+input[type=radio] {
+    margin-right:50px;
+    background-color:transparent;
+    border:none;
+                  }
+   
+textarea {
+    border:1px solid black;
+         } 
+   
