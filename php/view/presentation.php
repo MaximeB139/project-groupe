@@ -16,7 +16,7 @@
 <a href="#contact">contact</a>
 </section>
     <img class="logo" src="assets/img/LogoBiskot.png" alt="logo entreprise">
-    <h1>Biskot entreprise</h1>
+    
 
     </header>
 

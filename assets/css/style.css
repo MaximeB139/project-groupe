@@ -15,8 +15,8 @@ img {
 
 .logo {
 
-    width:100px;
-    height:100px;
+    width:125px;
+    height:125px;
 
 }
 
@@ -63,7 +63,8 @@ h2 {
 
 .ancre{
     font-size: 15px;
-    position: fixed;
+    position: relative;
+    text-align: right;
 
 }
 p {
