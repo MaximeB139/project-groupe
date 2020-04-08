@@ -43,7 +43,7 @@
    
     </p>
 
-       <input type="submit" value="Envoyer" name="envoyer"/>
+       <button type="submit" value="Envoyer" name="envoyer">Envoyer</button> 
     
 </form>
 
