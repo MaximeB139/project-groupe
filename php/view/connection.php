@@ -10,30 +10,36 @@ catch(exception $e) {
 ?>
 
 <?php
-session_start();
-$requete = $base->query('SELECT * FROM equipe WHERE pseudo="'.$_POST["pseudo"].'" AND mdp="'.$_POST["mdp"].'"');
+session_start(); 
+if(isset($_POST['connexion'])) { 
+  
+    if(empty($_POST['pseudo'])) {
+        echo "Le champ Pseudo est vide.";
+    } else {
 
-    $tab2 = $requete->fetchAll(PDO::FETCH_ASSOC);
-    var_dump($tap2);
-
-    if(!empty($tab2)){
-    foreach ($tab2 as $key => $value) {
-
-        $_SESSION["id"]=$value["id"];
-        $_SESSION["prenom"]=$value["prenom"];
-        $_SESSION["pseudo"]=$value["pseudo"];
-        $_SESSION["mdp"]=$value["mdp"];
-        $_SESSION["admin"]=$value["admin"];
-
+        if(empty($_POST['mdp'])) {
+            echo "Le champ Mot de passe est vide.";
+        } else {
+          
+            $Pseudo = htmlentities($_POST['pseudo'], ENT_QUOTES, "ISO-8859-1");
+            $MotDePasse = htmlentities($_POST['mdp'], ENT_QUOTES, "ISO-8859-1");
+            $mysqli = mysqli_connect("domaine.tld", "nom d'utilisateur", "mot de passe", "base de données");
+           
+            if(!$mysqli){
+                echo "Erreur de connexion à la base de données.";
+            } else {
+              
+                $Requete = mysqli_query($mysqli,"SELECT * FROM equipe WHERE pseudo = '".$Pseudo."' AND mdp = '".$MotDePasse."'");
+               
+                if(mysqli_num_rows($Requete) == 0) {
+                    echo "Le pseudo ou le mot de passe est incorrect, le compte n'a pas été trouvé.";
+                } else {
+                   
+                    $_SESSION['pseudo'] = $Pseudo;
+                    echo "Vous êtes à présent connecté !";
+                }
+            }
+        }
     }
-        //if
-        //else
-        
-
-
-
-
-
-
-
-    }
+}
+?>
