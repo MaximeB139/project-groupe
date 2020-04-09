@@ -14,7 +14,7 @@
 <a href="#Nos produits">Nos produits</a>
 <a href="#Nos Points De Ventes">Nos Points De Ventes</a>
 <a href="#contact">contact</a>
-<a href="../php/view/connexion.html">Connexion</a>
+<a href="php/view/connexion.html">Connexion</a>
 </section> 
     <img class="logo" src="assets/img/LogoBiskot.png" alt="logo entreprise">
     
