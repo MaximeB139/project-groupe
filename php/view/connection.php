@@ -23,7 +23,7 @@ if(isset($_POST['connexion'])) {
           
             $Pseudo = htmlentities($_POST['pseudo'], ENT_QUOTES, "ISO-8859-1");
             $MotDePasse = htmlentities($_POST['mdp'], ENT_QUOTES, "ISO-8859-1");
-            $mysqli = mysqli_connect("domaine.tld", "nom d'utilisateur", "mot de passe", "base de données");
+            $mysqli = mysqli_connect("pseudo", "nom", "mdp", "prenom");
            
             if(!$mysqli){
                 echo "Erreur de connexion à la base de données.";
