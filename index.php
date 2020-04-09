@@ -7,4 +7,4 @@ require_once "php/view/contact.php";
 require_once "php/view/footer.php";
 require_once "php/view/connection.php";
 require_once "php/view/deconnection.php";
-
+require_once "php/view/header.php";
