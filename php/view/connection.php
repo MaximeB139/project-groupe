@@ -11,9 +11,9 @@ catch(exception $e) {
 
 <?php
 session_start();
-$requete = $base->query('SELECT * FROM equipe WHERE pseudo="'.$_POST["pseudo"].'" AND mpd="'.$_POST["MDP"].'"');
+$requete = $base->query('SELECT * FROM equipe WHERE pseudo="'.$_POST["pseudo"].'" AND mdp="'.$_POST["MDP"].'"');
 
-    $$tab2 = $requete->fetchAll(PDO::FETCH_ASSOC);
+    $tab2 = $requete->fetchAll(PDO::FETCH_ASSOC);
     var_dump($tap2);
 
     if(!empty($tab2)){
