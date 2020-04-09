@@ -21,7 +21,7 @@ $requete = $base->query('SELECT * FROM equipe WHERE pseudo="'.$_POST["pseudo"].'
 
         $_SESSION["id"]=$value["id"];
         $_SESSION["prenom"]=$value["prenom"];
-        $_SESSION["pseudo"]=$value["prenom"];
+        $_SESSION["pseudo"]=$value["pseudo"];
         $_SESSION["mdp"]=$value["mdp"];
         $_SESSION["admin"]=$value["admin"];
 
